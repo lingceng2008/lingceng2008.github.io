@@ -9,7 +9,7 @@ self.addEventListener('fetch', function (e) {
      fetch(returnUrl, {
        // 通过设置referrer为空，骗过利用referrer实现防盗链的网站
        referrer: "http://www.dmzj.com/info/yitiaogou.html",
-       mode: 'no-cors'
+       mode: 'cors'
      })
    );
  }
