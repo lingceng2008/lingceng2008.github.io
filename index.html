@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" ></script>
+    <script>
+    if (navigator.serviceWorker) {
+       navigator.serviceWorker.register('service-worker.js').then(function (registration) {
+         console.log('service worker 注册成功');
+       }).catch(function (err) {
+         console.log('servcie worker 注册失败')
+       });
+     }
+    </script>
+</head>
+<body>
+  <img src="http://wx2.sinaimg.cn/mw690/006KnTwfly1fenrr149azj30m80cijth.jpg" alt="sina">
+  <img src="http://mmbiz.qpic.cn/mmbiz/zzsYqmQgjFkYGj6zWicqCyekbicZPl80Cicf7sj945mPicBv3eC7brwUV7MR63iaNKO9t3pBojqsOxKzYDswg3X7D0A/0?cache=false" alt="-qq">
+  <img src="https://images.dmzj.com/webpic/11/0210yitiaogoufml.jpg" alt="dmzj">
+</body>
+</html>
