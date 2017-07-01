@@ -1,4 +1,5 @@
-var domain = "https://images.dmzj.com";
+// var domain = "https://images.dmzj.com";
+var domain = "http://7jpo9g.com1.z0.glb.clouddn.com";
 console.log("in service worker.js");
 self.addEventListener('fetch', function (e) {
  console.log("when fetch");
